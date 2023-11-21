@@ -76,6 +76,7 @@ skip.addEventListener("click", () => {
 	} else {
 		video.currentTime += 10;
 	}
+	console.log("Current location " + video.currentTime);
 });
 
 
